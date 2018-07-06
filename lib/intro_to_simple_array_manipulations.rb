@@ -11,8 +11,9 @@ def using_pop(array)
 end
 
 def pop_with_args(array, number = 2)
-  return_array
+  new_array
   number.times do
-    return.unshift(array.pop)
+    new_array.unshift(array.pop)
   end
+  return new_array
 end
