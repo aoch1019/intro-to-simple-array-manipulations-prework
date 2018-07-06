@@ -21,3 +21,11 @@ end
 def using_shift(array)
   array.shift
 end
+
+def shift_with_args(array, number = 2)
+  new_array
+  number.times do
+    new_array.unshift(array.pop)
+  end
+  return new_array
+end
