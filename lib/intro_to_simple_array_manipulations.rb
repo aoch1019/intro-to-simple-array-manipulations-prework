@@ -31,10 +31,7 @@ def shift_with_args(array, number = 2)
 end
 
 def using_concat(array1, array2)
-  array2.each do |to_add|
-    array1.push(to_add)
-  end
-  return array1
+  array1.concat(array2)
 end
 
 def using_insert(array, elem)
