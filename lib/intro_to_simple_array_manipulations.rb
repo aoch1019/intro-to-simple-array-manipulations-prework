@@ -1,8 +1,8 @@
-def using_push(array,string)
+def using_push(array, string)
   array.push(string)
 end
 
-def using_unshift(array,string)
+def using_unshift(array, string)
   array.unshift(string)
 end
 
@@ -28,4 +28,8 @@ def shift_with_args(array, number = 2)
     new_array.push(array.shift)
   end
   return new_array
+end
+
+def using_concat(array1, array2)
+  
 end
