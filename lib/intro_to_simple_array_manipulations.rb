@@ -11,7 +11,7 @@ def using_pop(array)
 end
 
 def pop_with_args(array, number = 2)
-  new_array
+  new_array = []
   number.times do
     new_array.unshift(array.pop)
   end
@@ -23,9 +23,9 @@ def using_shift(array)
 end
 
 def shift_with_args(array, number = 2)
-  new_array
+  new_array = []
   number.times do
-    new_array.unshift(array.pop)
+    new_array.push(array.shift)
   end
   return new_array
 end
